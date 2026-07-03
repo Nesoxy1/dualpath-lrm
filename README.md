@@ -52,7 +52,7 @@ lrm.scan()
 stats, package = lrm.build_package()
 ```
 
-## Works great with: verifikator https://github.com/Nesoxy1/verifikator-mcp
+## Works great with: verifikator (https://github.com/Nesoxy1/verifikator-mcp)
 
 Diff-only context is only as trustworthy as its baseline. If `.lrm/state.json` is
 tampered with, the agent applies diffs against a state it never saw. Two layers:
